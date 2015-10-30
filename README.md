@@ -13,6 +13,34 @@ H@  is   easy  to  establish  connection   with  WDBAJ$.
 
 H@  is  one  of   the  best   ORM  tools  of  all  Technologies.
 
+
+
+SYNTAX  of  H@:
+---------------
+
+
+
+<?H@
+
+@HRemote  //  It  is  used  to load  H@ packages
+
+<JDollar-WDBA> //  It  is    used   to  load   JDollar  -WDBA  packages
+
+and  to make  connection  with  WDbaj$  database.
+
+<%
+
+<!  H@  template and   Oops   Logic  !>
+
+%>
+
+%>
+?>
+
+
+
+
+
 ADVANTAGES:
 ----------
 
