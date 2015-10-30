@@ -1,0 +1,138 @@
+Question: Write   a    H@  Program   to  perform    all   H@  Operating  like  HAVING clause,insert,Select  ,MIN,MAX,
+----------
+Select  a row , Database  updation  ,  and  all  relationships  etc.
+
+
+Program-1: relate.H@
+---------------
+
+<?H@
+@HRemote
+<JDollar-WDBA>
+<%
+public  class  relate 
+
+{
+
+Shared
+{
+
+H@.Writeln("Relationship");
+
+}
+
+ public void  H@-Main( ) throws  <EXE>  //Jdollar-Hibernate  main  function
+{
+
+<LList>  oper =  <NEW>  <LList>();  //linked  list
+oper.add("1");
+oper.add("10");
+oper.add("12");
+oper.add("21");
+oper.add("31");
+oper.add("31");
+
+<AList>  oper1 =  <NEW>  <AList>();//arraylist
+oper1.add("10");
+
+oper1.add("10");
+
+
+oper1.add("111");
+
+oper1.add("111");
+oper1.add("12");
+
+oper1.add("112");
+oper1.add("13");
+oper1.add("113");
+oper1.add("118");
+oper1.add("19");
+oper1.add("110");
+<AList>  oper12 =  <NEW>  <AList>();
+
+
+
+oper12.add("0");
+
+
+oper12.add("1");
+
+oper12.add("2");
+oper12.add("3");
+
+oper12.add("4");
+oper12.add("5");
+
+
+<AList>  oper13 =  <NEW>  <AList>();
+oper13.add("1");
+
+oper13.add("10");
+
+oper13.add("12");
+oper13.add("21");
+oper13.add("31");
+
+oper13.add("13");
+
+
+<AList>  oper131 =  <NEW>  <AList>();
+oper131.add("1");
+oper131.add("1");
+oper131.add("10");
+oper131.add("10");
+oper131.add("12");
+oper131.add("12");
+oper131.add("21");
+oper131.add("21");
+oper131.add("31");
+oper131.add("31");
+oper131.add("13");
+oper131.add("131");
+oper131.add("13");
+
+
+<AList>  opera =  <NEW>  <AList>();
+opera.add("1");  //add  some  items
+opera.add("1");
+opera.add("12");
+opera.add("21");
+opera.add("31");
+opera.add("31");
+H@.Writeln(HIBER.TEMPLATE("HavingClause"," ", oper,oper1,"",0 ,1).StringConvert()); //apply  having  clause
+
+HIBER.TEMPLATE("Insert","relate1", oper,oper1,"",0 ,0);//insert  to  database
+HIBER.TEMPLATE("ListAll","relate1", null,null,"",0 ,0);  //  select  all  from  relate1 table
+H@.Writeln(HIBER.TEMPLATE("AVG","relate1", oper,oper1,"",0 ,0)); //avg of  nos  
+H@.Writeln(HIBER.TEMPLATE("MAX","relate1", oper,oper1,"",0 ,0)); //max  of  nos
+H@.Writeln(HIBER.TEMPLATE("MIN","relate1", oper,oper1,"",0 ,0)); //min of  nos
+H@.Writeln(HIBER.TEMPLATE("Select","relate1", oper,oper12,"",6-1 ,0)); //  select  rows 
+
+HIBER.TEMPLATE("Update","relate1" ,oper,oper12,"",6,0); // update  the  table
+//HIBER.TEMPLATE("Delete","relate1" ,oper,oper12,"",6,0); //delete  a  table
+
+
+//H@.Writeln(HIBER.TEMPLATE("Select","relate1", oper,oper12,"",6 ,1));
+
+H@.Writeln("onetoone="+HIBER.TEMPLATE("One->One"," ", oper,oper13,"",0 ,0).StringConvert()); //one  to  one  relation ship
+H@.Writeln("onttomany="+HIBER.TEMPLATE("One->Many"," ", oper,oper131,"",0 ,0).StringConvert()); //one  to many relationship
+H@.Writeln("manytomany="+HIBER.TEMPLATE("Many->Many"," ", oper,opera,"",0 ,0).StringConvert()); //many  to many relationship.
+
+
+}
+
+}
+
+%>
+?>
+
+
+Output:
+------
+List   all  outputs  in  Jdollar  Hibernate   with   Template  format.
+
+
+
+
+
