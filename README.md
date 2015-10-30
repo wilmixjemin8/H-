@@ -1,7 +1,7 @@
 # H@
 ----
 
-JDollar:Hibernate  -H@    is  an ORM   tool ,  and  Framework  for  JDollar  used   with  JHSF,S@,and all  WSIT Technologies.
+JDollar:Hibernate  -H@    is  an ORM   tool ,and  a   new  Advanced   Technology  used   with  JHSF,S@,and all  WSIT Technologies.  H@    is  also  used  for  the  Framework  for  JDollar.
 
 H@  uses   HIBER.TEMPLATE  to  perform  operations  like Insertion,Select  all,Having  clause,Update  ,delete  ,Select  
 
@@ -82,10 +82,21 @@ is    also   an  added   advantage  of   H@.
 
 >  we can view   all  the  details   about  WDBAJ$  in  H@  itself.
 since   it  has direct  connection  with  wdbaj$.
+->  it  also   pocess  attractive  syntax.
+-> It  is   learnable.
 
+ -> It also behave  like  WDBAJ$ database.
+ -> It  has   beautiful  outputs  and  beautiful  templates
+ ->  It follows   encryption  and  Encrypt  the  data  and
+ store  the  output in .dbs  encrypted  format.
 
-
-
+ ->  User  can  execute  the  encrypted file  by  using remoteserver  of  H@. 
+ -> H@    is  also  used  for  the  Framework  for  JDollar.
+ 
+ 
+ Note: but  remoteserver  and  H@  Template  and   WDBAJ$  connection  files  is  not
+ opensourced  and only  H@  tutorial   is   opensoured  and  viewed by 
+professionals  or  users.
 
 
 
