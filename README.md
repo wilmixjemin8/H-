@@ -80,7 +80,8 @@ is    also   an  added   advantage  of   H@.
 
 > Using  H@  which  makes   cloud  web application  very   fast.
 
-
+>  we can view   all  the  details   about  WDBAJ$  in  H@  itself.
+since   it  has direct  connection  with  wdbaj$.
 
 
 
