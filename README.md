@@ -9,7 +9,7 @@ an  follows  One-One ,  One- many  ,Many  to Many  mapping   in   JDollar-Hibern
 
 JDollar -H@ is  invented by  wilmix   jemin  j   at  oct   2015.
 
-H@  is   easy  to  establish  connection   with  WDBAJ$.
+H@  is   easy  to  establish  connection   with  WDBAJ$.  H@   is  used  in  cloud  computing..
 
 H@  is  one  of   the  best   ORM  tools  of  all  Technologies.
 
